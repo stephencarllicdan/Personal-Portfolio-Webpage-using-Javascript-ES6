@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Stephen Carl M. Licdan — IT Portfolio</title>
+
+  
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800;900&family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+ 
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <header class="reveal">
+    <div class="brand">Stephen<span style="color:var(--primary)">.Portfolio</span></div>
+    <nav>
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#journey">My Journey</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  
+  <section id="home">
+    <div class="container grid">
+      <div class="hero-text reveal">
+        <div class="eyebrow">IT Student</div>
+        <h1>Hi, I'm <span style="color:var(--primary)">Stephen Carl M. Licdan</span></h1>
+        <div class="roles">IT Student · Web Developer · Graphic Designer</div>
+        <p class="lead">I am an IT student learning programming, web design, and networking. I am still improving my skills and excited to gain more knowledge and experience for future opportunities.</p>
+        <div class="actions">
+          <a class="btn primary" href="#contact">Hire Me</a>
+          <a class="btn" href="#contact">Let's Talk</a>
+        </div>
+        <div class="socials">
+          <a aria-label="Facebook" href="https://www.facebook.com/poyetzniel.licdan"><i class="fa-brands fa-facebook-f"></i></a>
+          <a aria-label="Instagram" href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a aria-label="GitHub" href="https://github.com/stephencarllicdan"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <p id="welcome" style="margin-top:14px;color:#9db5cf"></p>
+      </div>
+
+      <div class="hero-img reveal">
+        <img src="c:\Users\poyik\OneDrive\Desktop\PROJECT\image\a5aba80e-4131-46b4-92a3-eb0ed142bcd3.jpg" alt="Stephen portrait">
+        <span class="blob"></span>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="about">
+    <div class="container grid">
+      <div class="about-img reveal">
+        <img src="c:\Users\poyik\OneDrive\Desktop\PROJECT\image\794f3649-ba11-4739-b972-b1e91237ca4d.jpg" alt="About image">
+      </div>
+      <div class="about-text reveal">
+        <div class="eyebrow">About Me</div>
+        <h1>Curious IT Student who loves to build & design</h1>
+        <p class="lead">
+          I am an IT student who is still learning and improving my skills in programming, networking, and web development. I enjoy trying new things with technology and creating small projects. My goal is to gain more experience and knowledge that will help me in my future career.
+        </p>
+        <a class="btn" href="#journey">Read More</a>
+        <div style="margin-top:14px">Hobbies:</div>
+        <div id="hobbyTags" class="hobbies"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container reveal">
+      <div class="eyebrow">My</div>
+      <h1 style="margin-top:6px">Skills</h1>
+      <div class="two-col" style="margin-top:18px">
+        <div class="panel">
+          <h3 style="margin:0 0 12px">Coding Skills</h3>
+          <div id="codingList" class="stack"></div>
+        </div>
+        <div class="panel">
+          <h3 style="margin:0 0 12px">Professional Skills</h3>
+          <div id="proList" class="stack"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+<section id="journey">
+  <div class="container reveal">
+    <div class="eyebrow">My Journey</div>
+    <h1 style="margin:6px 0 18px">Education & Experience</h1>
+    <div class="cards">
+      <div class="panel">
+        <strong>Elementary — Vicente Hizon Sr. Elementary School</strong>
+        <div style="color:#9db5cf;margin-top:6px">Graduated 2017</div>
+      </div>
+      <div class="panel">
+        <strong>Web Developer (Student Projects)</strong>
+        <div style="color:#9db5cf;margin-top:6px">Built responsive pages & mini-apps for coursework and practice.</div>
+      </div>
+      <div class="panel">
+        <strong>High School — Holy Cross College of Sasa</strong>
+        <div style="color:#9db5cf;margin-top:6px">2017 – 2022</div>
+      </div>
+      <div class="panel">
+        <strong>Graphic Designer (Freelance)</strong>
+        <div style="color:#9db5cf;margin-top:6px">Logos, banners, and social posts with a clean, neon aesthetic.</div>
+      </div>
+      <div class="panel">
+        <strong>Senior High School — Assumption College Of Davao</strong>
+        <div style="color:#9db5cf;margin-top:6px">2022 – 2024</div>
+      </div>
+      <div class="panel" style="grid-column:1/-1">
+        <strong>College — Holy Cross of Davao College</strong>
+        <div style="color:#9db5cf;margin-top:6px">2024 – Present</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <section id="contact">
+    <div class="container reveal">
+      <div class="eyebrow">Contact</div>
+      <h1 style="margin-top:6px">Me!</h1>
+      <div class="two-col" style="margin-top:18px">
+        <form id="contactForm" class="panel">
+          <input type="text" name="fullName" placeholder="Full Name" required>
+          <input type="email" name="email" placeholder="Email Address" required>
+          <input type="text" name="mobile" placeholder="Mobile Number">
+          <input type="text" name="subject" placeholder="Email Subject">
+          <textarea name="message" placeholder="Your Message"></textarea>
+          <button class="btn primary" type="submit">Submit</button>
+          <p id="formNote" style="margin:6px 0 0;color:#9db5cf"></p>
+        </form>
+        <div class="panel">
+          <h3 style="margin-top:0">Let’s build something cool.</h3>
+          <p class="lead">Open for collaborations, student projects, and freelance design/development.</p>
+          <p class="lead"><i class="fa-solid fa-location-dot"></i> Davao City, Philippines</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <footer>© <span id="year"></span> Stephen Carl M. Licdan. All rights reserved.</footer>
+
+ 
+  <script src="script.js"></script>
+</body>
+</html>
